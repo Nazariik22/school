@@ -5,14 +5,14 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
     const state = useSelector(state => state.footer);
     return (
-        <footer>
+        <footer className={style.footer}>
             <section>
                 {state.menu.map(item=>
                 <div key={item.title}>
                     <h2>{item.title}</h2>
                     <ul>
                         <li>
-                            <NavLink></NavLink>
+                            <NavLink>1</NavLink>
                         </li>
                     </ul>
                 </div>  

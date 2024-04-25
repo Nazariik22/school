@@ -4,6 +4,37 @@ body {
 }
 *,a,button,textarea,input{
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button,a{
+    padding: 10px 15px;
+    background: none;
+    color: darkgrey;
+    text-decoration: none;
+    transition: all .3s linear;
+    border: none;
+}
+header,main,aside,.wrapper,section{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+h2,h3,h4,h5,h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+ul{
+    display: flex;   
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
 }

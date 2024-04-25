@@ -3,7 +3,7 @@
 const initialState = {
     menu: [
         { title: 'Головна', root: '/' },
-        { title: 'Новини', root: '/new' },
+        { title: 'Новини', root: '/news' },
         { title: 'Фотогалерея', root: '/fotoall' },
         { title: 'Контакти', root: '/contact' },
     ],

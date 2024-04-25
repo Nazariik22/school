@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     const state = useSelector(state => state.header);
     return (
-        <header>
-            <div className="structura">
+        <header className={style.header}>
+            <div className={style.structura}>
                 {state.structura.map(item =>
                     <span  key={item.title}>
                         {item.title}
@@ -19,7 +19,7 @@ const Header = () => {
                      <NavLink to={item.root}>{item.title}</NavLink>   
                     </li>
                 )}
-                <li>+</li>
+                <li className={style.create}>+</li>
             </ul>
         </header>
     )

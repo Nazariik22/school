@@ -9,5 +9,5 @@ const rootReducer = combineReducers({
     aside: asideReduser,
 })
 
-const store = createStore(rootReducer)
+const store = createStore(rootReducer,composeWithDevTools())
 export { store };

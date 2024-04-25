@@ -1,0 +1,29 @@
+.aside h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #38b0a6;
+    margin-bottom: 20px;
+}
+.aside  a{
+    color: #29988f;
+}
+.aside{
+    width: 180px;
+    padding: 20px;
+}
+.aside img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+.aside a{
+    border-bottom: 1px solid ;
+}
+.aside button{
+    font-size: 25px;
+    color: #38b0a6;
+}
